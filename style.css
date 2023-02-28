@@ -1,0 +1,441 @@
+body {
+    margin: 5px 0px 0px 0px;
+    padding: 5px 5px 0px 5px;
+    color: white;
+    /*background-color: rgb(228, 165, 82);*/
+
+}
+
+@keyframes animacionfondo {
+    from {
+        transform: rotate(0deg) scale(2.5);
+    }
+    to {
+        transform: rotate(360deg) scale(2.5);
+    }
+}
+.fondo {
+    /*background-image: background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Crect fill='none' stroke-width='115' stroke-opacity='0.1' id='a' x='-400' y='-300' width='800' height='600'/%3E%3C/defs%3E%3Cg transform='scale(0.901)' style='transform-origin:center'%3E%3Cg transform='rotate(138.6 0 0)' style='transform-origin:center'%3E%3Cg transform='rotate(-128 0 0)' style='transform-origin:center'%3E%3Cg transform='translate(1000 750)'%3E%3Cuse stroke='%2388BEFF' href='%23a' transform='rotate(8 0 0) scale(1.08)'/%3E%3Cuse stroke='%2385c2ff' href='%23a' transform='rotate(16 0 0) scale(1.16)'/%3E%3Cuse stroke='%2381c7ff' href='%23a' transform='rotate(24 0 0) scale(1.24)'/%3E%3Cuse stroke='%237ecbff' href='%23a' transform='rotate(32 0 0) scale(1.32)'/%3E%3Cuse stroke='%237bcfff' href='%23a' transform='rotate(40 0 0) scale(1.4)'/%3E%3Cuse stroke='%2377d4ff' href='%23a' transform='rotate(48 0 0) scale(1.48)'/%3E%3Cuse stroke='%2374d8ff' href='%23a' transform='rotate(56 0 0) scale(1.56)'/%3E%3Cuse stroke='%2371dcff' href='%23a' transform='rotate(64 0 0) scale(1.64)'/%3E%3Cuse stroke='%236de1ff' href='%23a' transform='rotate(72 0 0) scale(1.72)'/%3E%3Cuse stroke='%236ae5ff' href='%23a' transform='rotate(80 0 0) scale(1.8)'/%3E%3Cuse stroke='%2367e9ff' href='%23a' transform='rotate(88 0 0) scale(1.88)'/%3E%3Cuse stroke='%2363eeff' href='%23a' transform='rotate(96 0 0) scale(1.96)'/%3E%3Cuse stroke='%2360f2ff' href='%23a' transform='rotate(104 0 0) scale(2.04)'/%3E%3Cuse stroke='%235df6ff' href='%23a' transform='rotate(112 0 0) scale(2.12)'/%3E%3Cuse stroke='%2359fbff' href='%23a' transform='rotate(120 0 0) scale(2.2)'/%3E%3Cuse stroke='%2356FFFF' href='%23a' transform='rotate(128 0 0) scale(2.28)'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;;*/
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    animation: animacionfondo 60s linear infinite both;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+/*USAR TANTO FLEX COMO GRID PARA MI PAGINA WEB, NO EXISTE ESO DE QUE UNO ES MEJOR QUE EL OTRO. Flexbox => Elementos dentro de Cajas - Grid => Cajas dentro de Estructuras */
+
+* {
+    box-sizing: border-box;
+}
+
+/*@media screen and () {
+    
+}*/
+
+
+/* ACÁ EMPIEZA SECTION1*/
+.precen {
+    /*width: 700px;*/
+    margin: 20px 400px 20px 400px;
+    padding: auto;
+    border: blue 5px solid;
+    border-radius: 30px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.nombre {
+    font-size: 50px;
+}
+.precen .p1 {
+    font-size: 30px;
+}
+
+.contenedor-1 {
+    width: 100%;
+    height: 475px;
+    padding: 20px 20px 20px 20px;
+    /*color: white;
+    background-color: rgb(156, 68, 79);*/
+    font-size: 40px;
+    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contenedor-1 .primero{
+    border: 5px red solid;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenedor-1 .segundo {
+    border: 5px red solid;
+    border-radius: 50%;
+    text-align: center;
+}
+.imgmia {
+    padding: 5px 15px 150px 15px;
+    border-radius: 50%;
+    width: 200px;
+}
+
+.contenedor-1 .tercero {
+    border: 5px red solid;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cv{
+    font-size: 40px;
+    margin: 5px 550px 5px 550px;
+    padding: 5px 5px 5px 5px;
+    border: rgb(100, 3, 129) 5px solid;
+    border-radius: 30px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/*ACÁ EMPIEZA SECTION2*/
+.contenedor-2 {
+    width: 100%;
+    height: 400px;
+    /*background-color: rgb(123, 222, 235);*/
+    padding: 20px 20px 20px 20px;
+}
+
+.contenedor-2 .primero{
+    width: 49%;
+    height: 360px;
+    float: left;
+    border: 5px blue solid;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.sobremi {
+    font-size: 40px;
+}
+.contenedor-2 .p1 {
+    font-size: 23px;
+}
+
+.contenedor-2 .segundo {
+    width: 49%;
+    height: 360px;
+    float: right;
+    border: 5px blue solid;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.objetivo {
+    font-size: 40px;
+}
+.contenedor-2 .p2 {
+font-size: 20px;
+}
+
+/*ACÁ EMPIEZA SECTION3 - FORMACIÓN ACADÉMICA*/
+.fa {
+    margin: 20px 400px 20px 400px;
+    padding: auto;
+    border: 5px red solid;
+    border-radius: 50px;
+    /*background-color: rgb(156, 68, 79);*/
+    text-align: center;
+}
+.foraca {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor-3 {
+    width: 100%;
+    height: 400px;
+    /*background-color: rgb(156, 68, 79);*/
+    padding: 20px 20px 20px 20px;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.contenedor-3 .primero {
+    width: 33.33%;
+    border: 5px red solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-3 .primero .p1 {
+    font-size: 25px;
+}
+
+.contenedor-3 .segundo {
+    width: 33.33%;
+    border: 5px red solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-3 .segundo .p2 {
+    font-size: 25px;
+}
+
+.contenedor-3 .tercero {
+    width: 33.33%;
+    border: 5px red solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-3 .tercero .p3{
+    font-size: 20px;
+}
+
+/*ACÁ EMPIEZA SECTION3 - EXPERIENCIA LABORAL*/
+.el {
+    margin: 20px 400px 20px 400px;
+    padding: auto;
+    border: 5px red solid;
+    border-radius: 50px;
+    /*color: white;
+    background-color: rgb(156, 68, 79);*/
+    text-align: center;
+}
+.exla {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor-4 {
+    width: 100%;
+    height: 250px;
+    /*background-color: rgb(156, 68, 79);*/
+    padding: 20px 20px 20px 20px;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contenedor-4 .primero {
+    width: 33.33%;
+    border: 5px red solid;
+    border-radius: 10px;
+    padding: 10px;
+    /*color: white;*/
+
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-4 .primero .pasto {
+    width: 10%;
+    margin: 5px 5px 5px 50px;
+    border: 5px white solid;
+    padding: 7px 30px 7px 7px;
+    border-radius: 100% ;
+}
+.contenedor-4 .primero .p4 {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor-4 .segundo {
+    width: 33.33%;
+    border: 5px red solid;
+    border-radius: 10px;
+    padding: 10px;
+    /*color: white;*/
+
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-4 .segundo .limpieza {
+    width: 10%;
+    margin: 5px 5px 5px 50px;
+    border: 5px white solid;
+    padding: 7px 30px 7px 7px;
+    border-radius: 100% ;
+}
+.contenedor-4 .segundo .p5 {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor-4 .tercero {
+    width: 33.33%;
+    border: 5px red solid;
+    border-radius: 10px;
+    padding: 10px;
+    /*color: white;*/
+
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-4 .tercero .pintura {
+    width: 10%;
+    margin: 5px 5px 5px 50px;
+    border: 5px white solid;
+    padding: 7px 30px 7px 7px;
+    border-radius: 100% ;
+}
+.contenedor-4 .tercero .p6 {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*ACÁ EMPIEZA SECTION4*/
+.contenedor-5 {
+    width: 100%;
+    height: 340px;
+    /*background-color: rgb(123, 222, 235);*/
+    margin: 20px 1px 10px 1px;
+    padding: 20px 20px 20px 20px;
+}
+
+.contenedor-5 .primero {
+    width: 49%;
+    height: 300px;
+    float: left;
+    border: 5px blue solid;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.massobre {
+    font-size: 35px;
+    margin: 5px 1px 10px 1px;
+}
+.contenedor-5 .primero .p1 {
+    font-size: 21px;
+}
+
+.contenedor-5 .segundo {
+    width: 49%;
+    height: 300px;
+    float: right;
+    border: 5px blue solid;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.fju {
+    font-size: 33px;
+    margin: 5px 1px 10px 1px;
+}
+.contenedor-5 .segundo .p2 {
+    font-size: 23px;
+}
+
+/*ACÁ EMPIEZA FOOTER*/
+.footer {
+    width: 100%;
+    height: 200px;
+    padding: 5px 5px 5px 5px;
+    /*color: white;*/
+    backdrop-filter: blur(500px);
+    text-align:center;
+    position: relative;
+    z-index: 2;
+}
+
+.ul {
+    width:100%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    margin: 0 2em;
+    border: 5px red solid;
+}
+.correo {
+    width: 40px;
+}
+
+.whatsapp {
+    margin: 0 2em;
+    border: 5px rgb(70, 185, 3) solid;
+}
+.wasap {
+    width: 40px;
+}
+
+.instagram {
+    margin: 0 2em;
+    border: 5px rgb(216, 5, 170) solid;
+}
+.insta {
+    width: 40px;
+}
+
+.facebook {
+    margin: 0 2em;
+    border: 5px blue solid;
+}
+.face {
+    width: 40px;
+}
+
+.linkedin {
+    margin:  0 2em;
+    border: 5px rgb(77, 77, 245) solid;
+}
+.link {
+    width: 40px;
+}
+
+.arrowup {
+    margin: 0 2em;
+    border: 5px black solid;
+}
+.up {
+    width: 40px;
+}
+
+.footer .h3 {
+    font-size: 20px;
+    margin: 30px 400px 0px 400px;
+    padding: 5px 5px 5px 5px;
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 30px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+/*me engo que fijar de como poner siempre abajo el footer*/
