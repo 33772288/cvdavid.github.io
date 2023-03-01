@@ -2,8 +2,6 @@ body {
     margin: 5px 0px 0px 0px;
     padding: 5px 5px 0px 5px;
     color: white;
-    /*background-color: rgb(228, 165, 82);*/
-
 }
 
 @keyframes animacionfondo {
@@ -15,10 +13,6 @@ body {
     }
 }
 .fondo {
-    /*background-image: background-color: #000000;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Crect fill='none' stroke-width='115' stroke-opacity='0.1' id='a' x='-400' y='-300' width='800' height='600'/%3E%3C/defs%3E%3Cg transform='scale(0.901)' style='transform-origin:center'%3E%3Cg transform='rotate(138.6 0 0)' style='transform-origin:center'%3E%3Cg transform='rotate(-128 0 0)' style='transform-origin:center'%3E%3Cg transform='translate(1000 750)'%3E%3Cuse stroke='%2388BEFF' href='%23a' transform='rotate(8 0 0) scale(1.08)'/%3E%3Cuse stroke='%2385c2ff' href='%23a' transform='rotate(16 0 0) scale(1.16)'/%3E%3Cuse stroke='%2381c7ff' href='%23a' transform='rotate(24 0 0) scale(1.24)'/%3E%3Cuse stroke='%237ecbff' href='%23a' transform='rotate(32 0 0) scale(1.32)'/%3E%3Cuse stroke='%237bcfff' href='%23a' transform='rotate(40 0 0) scale(1.4)'/%3E%3Cuse stroke='%2377d4ff' href='%23a' transform='rotate(48 0 0) scale(1.48)'/%3E%3Cuse stroke='%2374d8ff' href='%23a' transform='rotate(56 0 0) scale(1.56)'/%3E%3Cuse stroke='%2371dcff' href='%23a' transform='rotate(64 0 0) scale(1.64)'/%3E%3Cuse stroke='%236de1ff' href='%23a' transform='rotate(72 0 0) scale(1.72)'/%3E%3Cuse stroke='%236ae5ff' href='%23a' transform='rotate(80 0 0) scale(1.8)'/%3E%3Cuse stroke='%2367e9ff' href='%23a' transform='rotate(88 0 0) scale(1.88)'/%3E%3Cuse stroke='%2363eeff' href='%23a' transform='rotate(96 0 0) scale(1.96)'/%3E%3Cuse stroke='%2360f2ff' href='%23a' transform='rotate(104 0 0) scale(2.04)'/%3E%3Cuse stroke='%235df6ff' href='%23a' transform='rotate(112 0 0) scale(2.12)'/%3E%3Cuse stroke='%2359fbff' href='%23a' transform='rotate(120 0 0) scale(2.2)'/%3E%3Cuse stroke='%2356FFFF' href='%23a' transform='rotate(128 0 0) scale(2.28)'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    background-attachment: fixed;
-    background-size: cover;;*/
     position: fixed;
     width: 100%;
     height: 100%;
@@ -26,8 +20,6 @@ body {
     filter: blur(10px);
     z-index: -1;
 }
-
-/*USAR TANTO FLEX COMO GRID PARA MI PAGINA WEB, NO EXISTE ESO DE QUE UNO ES MEJOR QUE EL OTRO. Flexbox => Elementos dentro de Cajas - Grid => Cajas dentro de Estructuras */
 
 * {
     box-sizing: border-box;
@@ -91,7 +83,6 @@ body {
 
 /* ACÁ EMPIEZA SECTION1*/
 .precen {
-    /*width: 700px;*/
     margin: 20px 400px 20px 400px;
     padding: auto;
     border: blue 5px solid;
@@ -111,12 +102,9 @@ body {
     width: 100%;
     height: 475px;
     padding: 20px 20px 20px 20px;
-    /*color: white;
-    background-color: rgb(156, 68, 79);*/
     font-size: 40px;
     
     display: flex;
-    /*justify-content: center;*/
     gap: 20px;
 }
 
@@ -130,7 +118,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
-/*ARREGLAR LA IMAGEN MIA*/
+
 .contenedor-1 .segundo {
     border: 5px red solid;
     padding: auto;
@@ -139,7 +127,6 @@ body {
 }
 .contenedor-1 .imgmia {
     margin: auto;
-    /*padding: 5px 15px 150px 15px;*/
     border-radius: 50%;
     width: 180px;
 }
@@ -170,7 +157,6 @@ body {
 .contenedor-2 {
     width: 100%;
     height: 400px;
-    /*background-color: rgb(123, 222, 235);*/
     padding: 20px 20px 20px 20px;
 }
 
@@ -212,7 +198,6 @@ font-size: 20px;
     padding: auto;
     border: 5px red solid;
     border-radius: 50px;
-    /*background-color: rgb(156, 68, 79);*/
     text-align: center;
 }
 .foraca {
@@ -223,7 +208,6 @@ font-size: 20px;
 .contenedor-3 {
     width: 100%;
     height: 400px;
-    /*background-color: rgb(156, 68, 79);*/
     padding: 20px 20px 20px 20px;
 
     display: flex;
@@ -283,8 +267,6 @@ font-size: 20px;
     padding: auto;
     border: 5px red solid;
     border-radius: 50px;
-    /*color: white;
-    background-color: rgb(156, 68, 79);*/
     text-align: center;
 }
 .exla {
@@ -295,7 +277,6 @@ font-size: 20px;
 .contenedor-4 {
     width: 100%;
     height: 250px;
-    /*background-color: rgb(156, 68, 79);*/
     padding: 20px 20px 20px 20px;
 
     display: flex;
@@ -308,7 +289,6 @@ font-size: 20px;
     border: 5px red solid;
     border-radius: 10px;
     padding: 10px;
-    /*color: white;*/
 
     display: flex;
     flex-direction: column;
@@ -330,7 +310,6 @@ font-size: 20px;
     border: 5px red solid;
     border-radius: 10px;
     padding: 10px;
-    /*color: white;*/
 
     display: flex;
     flex-direction: column;
@@ -352,7 +331,6 @@ font-size: 20px;
     border: 5px red solid;
     border-radius: 10px;
     padding: 10px;
-    /*color: white;*/
 
     display: flex;
     flex-direction: column;
@@ -373,7 +351,6 @@ font-size: 20px;
 .contenedor-5 {
     width: 100%;
     height: 340px;
-    /*background-color: rgb(123, 222, 235);*/
     margin: 20px 1px 10px 1px;
     padding: 20px 20px 20px 20px;
 }
@@ -417,7 +394,6 @@ font-size: 20px;
     width: 100%;
     height: 200px;
     padding: 5px 5px 5px 5px;
-    /*color: white;*/
     backdrop-filter: blur(500px);
     text-align:center;
     position: relative;
@@ -491,4 +467,7 @@ font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
-/*me engo que fijar de como poner siempre abajo el footer*/
+
+
+
+/*Desde ya muchas gracias... Esta simple y humilde página web fue creada para el curso de "Introducción - Primeros Pasos en el Front-End", en el cual me pude capacitar muchísimo y descubrir nuevos mundos dentro del mundo de la programación. Espero seguir capacitándome cada vez más, una vez más... Gracias.*/
